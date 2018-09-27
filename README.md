@@ -10,6 +10,6 @@ https://hfu.github.io/6/{z}/{x}/{y}.pbf
 # how this is created
 ```console
 $ node index.js > a.ndjson
-$ tippecanoe -f -o a.mbtiles --maximum-zoom=6 -l 6 --no-tile-compression a.ndjson
-$ tile-join -e . a.mbtiles
+$ tippecanoe -f -o a.mbtiles --maximum-zoom=6 -l 6 a.ndjson
+$ tile-join -e . a.mbtiles --no-tile-compression
 ```
