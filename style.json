@@ -1,0 +1,48 @@
+{
+  "version": 8,
+  "sources": {
+    "6": {
+      "type": "vector",
+      "tiles": [
+        "https://hfu.github.io/6/{z}/{x}/{y}.pbf"
+      ],
+      "maxzoom": 6
+    }
+  },
+  "glyphs": "https://hfu.github.io/noto-jp/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "6.line",
+      "type": "line",
+      "source": "6",
+      "source-layer": "6",
+      "paint": {
+        "line-color": "rgba(136, 136, 136, 1)",
+        "line-width": 0.5
+      }
+    },
+    {
+      "id": "6.symbol",
+      "type": "symbol",
+      "source": "6",
+      "source-layer": "6",
+      "minzoom": 3,
+      "maxzoom": 18,
+      "layout": {
+        "text-field": "{w3n}",
+        "text-size": {
+          "stops": [
+            [
+              4,
+              10
+            ],
+            [
+              8,
+              120
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
