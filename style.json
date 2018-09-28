@@ -9,7 +9,7 @@
       "maxzoom": 6
     }
   },
-  "glyphs": "https://hfu.github.io/noto-jp/{fontstack}/{range}.pbf",
+  "glyphs": "https://hfu.github.io/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "6.line",
