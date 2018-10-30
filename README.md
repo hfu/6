@@ -7,6 +7,11 @@ https://hfu.github.io/6/{z}/{x}/{y}.pbf
 # source-layer
 '6'
 
+# property
+property name: w3n
+
+property value: {z}-{x}-{y}
+
 # how this is created
 ```console
 $ node index.js > a.ndjson
